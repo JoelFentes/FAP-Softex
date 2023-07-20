@@ -173,6 +173,7 @@ booleano(a)
 Exercícios pt2
 
 */
+/* 
 
 let num = parseFloat(readlineSync.question("Digite um numero:"))
 
@@ -226,3 +227,39 @@ function maiorQueDez(numb) {
 
 maiorQueDez(numb)
 
+
+Exercício pt3
+
+1.
+*/
+
+let numero = readlineSync.question("Digite um número")
+
+function classNum(numero) {
+    if (numero == 0) {
+        console.log("Seu número é neutro(zero)!");
+    } 
+    else if (numero > 0) {
+        console.log("Seu número é positivo!");
+    }
+    else {
+        console.log("Seu número é negativo!");
+    }
+}
+
+classNum(numero)
+
+//2.
+
+let numero = readlineSync.question("Digite um número")
+
+function divNum(numero) {
+   if (numero / 2 % 0 && numero / 3 % 0  ) {
+    console.log();
+   } 
+   else {
+    
+   }
+}
+
+divNum(numero)
