@@ -127,3 +127,45 @@ evenNum(num2)
 
 //3.
 
+let str = readlineSync.question("Digite algo:")
+
+function strV(str) {
+    if (str === ("")) {
+        console.log("O dado está vazio!");
+        
+    } 
+    else {
+        console.log("Obrigado por nos ajudar")
+    }
+}
+strV(str)
+
+//4. 
+
+let numb = parseFloat(readlineSync.question("Digite um número:"))
+
+function maiorQueDez(num3) {
+    if (numb > 10) {
+        console.log("Seu número é maior que 10");
+    } else {
+        console.log("Seu número é menor que 10");
+    }
+}
+
+maiorQueDez(numb)
+
+//5.
+
+let a = false
+
+function booleano(a) {
+    if (a === true || a === false) {
+        console.log("Sua variavel é booleana")    
+    
+    } 
+    else {
+        console.log("Esse tipo de variavel não é booleano")
+    }
+}
+
+booleano(a)
