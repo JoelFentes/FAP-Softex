@@ -96,7 +96,7 @@ console.log(divisão(num1, num2));
 
 
 /* Estruturas de Decisão 
-Exercício 1.*/
+Exercício 1.
 
 let num = parseFloat(readlineSync.question("Digite um numero:"))
 
@@ -144,7 +144,7 @@ strV(str)
 
 let numb = parseFloat(readlineSync.question("Digite um número:"))
 
-function maiorQueDez(num3) {
+function maiorQueDez(numb) {
     if (numb > 10) {
         console.log("Seu número é maior que 10");
     } else {
@@ -169,3 +169,60 @@ function booleano(a) {
 }
 
 booleano(a)
+
+Exercícios pt2
+
+*/
+
+let num = parseFloat(readlineSync.question("Digite um numero:"))
+
+function positiveNum(num) {
+    if (num >= 0) {
+        console.log("Seu número é positivo");
+    }
+    else {
+        console.log("Erro!");
+    }
+}
+positiveNum(num)
+
+
+let num2 = parseFloat(readlineSync.question("Digite um numero:"))
+
+function evenNum(num2) {
+    if (num2 % 2 == 0) {
+        console.log("Seu número é par");
+    } 
+    else {
+        console.log("Seu número é impar");
+    }
+}
+evenNum(num2)
+
+let str = readlineSync.question("Digite algo:")
+
+function strVali(str) {
+    if (str === ("")) {
+        console.log("A string está vazia!");
+        
+    } 
+    else {
+        console.log("Você digitou:", str)
+    }
+}
+strVali(str)
+
+let numb = parseFloat(readlineSync.question("Digite um número:"))
+
+function maiorQueDez(numb) {
+    if (numb > 10) {
+        console.log("Seu número é maior que 10");
+    } 
+    else {
+        numb *= 2
+        console.log(numb);
+    }
+}
+
+maiorQueDez(numb)
+
