@@ -156,7 +156,7 @@ maiorQueDez(numb)
 
 //5.
 
-let a = false
+let a = true
 
 function booleano(a) {
     if (a === true || a === false) {
