@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 
-// Exercícios:
+/*  // Exercícios:
 
 //1. 
 
@@ -92,7 +92,38 @@ function divisão(num1, num2) {
     return divisãoNum
 }
 console.log(divisão(num1, num2));
+*/
 
 
+/* Estruturas de Decisão 
+Exercício 1.*/
 
+let num = parseFloat(readlineSync.question("Digite um numero:"))
+
+function positiveNum(num) {
+    if (num >= 0) {
+        console.log("Seu número é positivo");
+    }
+    else {
+        console.log("Seu número é negativo");
+    }
+}
+positiveNum(num)
+
+//2. 
+
+
+let num2 = parseFloat(readlineSync.question("Digite um numero:"))
+
+function evenNum(num2) {
+    if (num2 % 2 == 0) {
+        console.log("Seu número é par");
+    } 
+    else {
+        console.log("Seu número é impar");
+    }
+}
+evenNum(num2)
+
+//3.
 
