@@ -2,6 +2,7 @@ const readlineSync = require('readline-sync');
 
 let resposta = readlineSync.question("Responda as perguntas com 'sim' ou 'não' para sabermos qual é o seu veiculo. Seu veiculo cabe apenas uma pessoa? ")
 
+
 function veiculos(resposta) {
     if (resposta === "sim") {
         let resposta = readlineSync.question("Esse veiculo é pesado? ")
