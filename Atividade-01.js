@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 
-/*  // Exercícios:
+// Exercícios:
 
 //1. 
 
@@ -95,8 +95,8 @@ console.log(divisão(num1, num2));
 */
 
 
-/* Estruturas de Decisão 
-Exercício 1.
+//Estruturas de Decisão 
+//Exercício 1.
 
 let num = parseFloat(readlineSync.question("Digite um numero:"))
 
@@ -170,10 +170,8 @@ function booleano(a) {
 
 booleano(a)
 
-Exercícios pt2
+//Exercícios pt2
 
-*/
-/* 
 
 let num = parseFloat(readlineSync.question("Digite um numero:"))
 
