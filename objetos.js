@@ -1,5 +1,5 @@
 // Objeto vazio
-/* 
+
 const objetoVazio = {}
 
 //
@@ -46,7 +46,6 @@ cliente.endereco = "Rua A, 123"
 
 console.log(cliente);
 
-*/
 //
 
 const empresa = {
@@ -70,3 +69,19 @@ const aluno = {
 aluno.notas[1] = 95
 
 console.log(aluno.notas[1]);
+
+const dados = {
+    valores: [10, 20, 30]
+}
+
+dados.valores[dados.valores.splice(1,1)]
+
+console.log(dados.valores);
+
+
+const book = {
+    titulo: "Livro",
+    autor: "Maria"
+}
+
+console.log(book);
