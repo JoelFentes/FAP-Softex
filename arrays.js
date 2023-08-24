@@ -37,24 +37,24 @@ for (let i of usuarios) {
     console.log(`Nome do Jogador: ${i.nome}, Idade: ${i.idade} anos`);
     
 } */
+/* 
+const numeros = [150, 100, 200, 250, 50];
 
-/* const numeros = [150, 100, 200, 250, 50];
-
-for (let i of numeros) {
-    console.log(i);
+for (let i in numeros) {
+    console.log(numeros[i]);
 }
 const palavras = ["cadeira", "lapis", "caneta", "caderno", "mesa"];
 
-for (let a of palavras) {
-    console.log(a);
+for (let a in palavras) {
+    console.log(palavras[a]);
 }
 const logicos = [true, false, true, false, true];
 
-for (let x of logicos) {
-    console.log(x);
+for (let x in logicos) {
+    console.log(logicos[x]);
 }
 
-*/
+ */
 /* 
 let objeto = {
     a: 10, 
@@ -94,7 +94,7 @@ for (let i in estudantes) {
     }
 }
  */
-
+/* 
 let pontos = [ 
     [2, 5, 8], 
     [3, 9, 12], 
@@ -109,4 +109,5 @@ for (let l in pontos) {
     }
 }
 
-console.log(soma);
+console.log(soma); */
+
